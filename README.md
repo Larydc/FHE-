@@ -5,7 +5,7 @@ Demo of MNIST pipeline which uses Homomorphic encryption to classify digits on u
 </p>
 
 
--TBD homomorphic encryption
+
 
 # Deep learning model training
 `./train` folder includes the pytorch deep learning pipeline based on MNIST dataset.
