@@ -9,7 +9,7 @@ Demo of MNIST pipeline which uses Homomorphic encryption to classify digits on u
 
 # Deep learning model training
 
-* [`train.py`](train.py) - Source code for the training and evaluation process of the MNIST network.
+* [`train.py`](https://github.com/Larydc/FHE-/blob/main/train) - Source code for the training and evaluation process of the MNIST network.
 The training process is visualized using tensorboard library.
 During the training best models parameters are stored into .csv files which then can be coppied to `untrusted server` implementation.
 * [`batchers/mnist_batcher.py`](train/batchers/mnist_batcher.py) - Dataset which return MNIST training/testing examples. The input image is encoded as `1.0` or `0.0` without the intermedient values - this is done so the user input data (from client frontend) has the same distribution.
