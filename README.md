@@ -8,7 +8,7 @@ Demo of MNIST pipeline which uses Homomorphic encryption to classify digits on u
 
 
 # Deep learning model training
-`./train` folder includes the pytorch deep learning pipeline based on MNIST dataset.
+
 * [`train.py`](train.py) - Source code for the training and evaluation process of the MNIST network.
 The training process is visualized using tensorboard library.
 During the training best models parameters are stored into .csv files which then can be coppied to `untrusted server` implementation.
