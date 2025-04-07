@@ -15,8 +15,7 @@ During the training best models parameters are stored into .csv files which then
 * [`batchers/mnist_batcher.py`](https://github.com/Larydc/FHE-/blob/main/mnist_batcher) - Dataset which return MNIST training/testing examples. The input image is encoded as `1.0` or `0.0` without the intermedient values - this is done so the user input data (from client frontend) has the same distribution.
 * [`models/mnist_classifier.py`](https://github.com/Larydc/FHE-/blob/main/mnist_classifier) - Neural network module. For this demo a network build from 2 fully connected layers where trained, with `x^2` activation function (with small network this activation performs good and provide a simple implementation using homomorphic encryption operations).
  
-This simple network achieves 95% accuracy on MNIST dataset:
-![Tensorboard](.images/2xFc.x2.tensorboard.png)
+This simple network achieves 95% accuracy on MNIST dataset
 
 # Evaluation
 ### Client frontend
