@@ -1,7 +1,7 @@
 # Homomorphic MNIST
 Demo of MNIST pipeline which uses Homomorphic encryption to classify digits on untrusted server.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Larydc/FHE-/main/.images/MnistEvalPipeline.png">
+  <img src="https://github.com/Larydc/FHE-/blob/main/MnistEvalPipeline.png">
 </p>
 
 
